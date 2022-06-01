@@ -31,4 +31,23 @@ animals = {
 
 for property in animals:
     #inside of the loop we must use bracket notation
-    print(property, animals[property])
+    #print(property, animals[property])
+    pass
+
+# Event Loop Flipping Counterexample
+
+def f1():
+    o = 0
+    for i in range(1000):
+        for x in range(1000):
+            for y in range(100):
+                o += 1
+    return o
+
+def f2():
+    o = 0
+    return o
+
+
+print('f1 return val:', f1())
+print('f2 return val:', f2())
