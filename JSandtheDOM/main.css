@@ -1,0 +1,17 @@
+.htext {
+    font-size: 32pt;
+    color: red;
+    text-decoration: underline;
+}
+
+.htext2 {
+    font-size: 14pt;
+    color: green;
+    text-decoration: none;
+}
+
+.htext3 {
+    font-size: 20pt;
+    color: blue;
+    font-weight: italic;
+}
